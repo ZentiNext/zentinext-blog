@@ -2,7 +2,8 @@
 layout: post
 title:  "Creating an Excel sheet using Java"
 author: jhwimalasiri
-categories: [ Java, Apache, Excel ]
+categories: [ Tech ]
+tags: [ Java, Apache, Excel ]
 image: assets/images/excel-cover.png
 description: "My review of Inception movie. Acting, plot and something else in this short description."
 featured: false
