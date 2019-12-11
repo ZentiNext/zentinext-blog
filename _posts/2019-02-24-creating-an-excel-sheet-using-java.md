@@ -5,7 +5,7 @@ author: jhwimalasiri
 categories: [ Tech ]
 tags: [ Java, Apache, Excel ]
 image: assets/images/excel-cover.png
-description: "My review of Inception movie. Acting, plot and something else in this short description."
+description: "Creating an Excel Sheet Using Java"
 featured: false
 hidden: false
 ---

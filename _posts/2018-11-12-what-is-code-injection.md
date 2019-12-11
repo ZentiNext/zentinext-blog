@@ -5,7 +5,7 @@ author: jhwimalasiri
 categories: [Tech]
 tags: [ security, code injection ]
 image: assets/images/code-injection.png
-description: "My review of Inception movie. Acting, plot and something else in this short description."
+description: "What is Code Injection"
 featured: true
 hidden: false
 ---
