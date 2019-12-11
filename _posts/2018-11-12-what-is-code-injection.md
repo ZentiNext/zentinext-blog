@@ -6,7 +6,7 @@ categories: [ security, code injection ]
 image: assets/images/code-injection.png
 description: "My review of Inception movie. Acting, plot and something else in this short description."
 featured: true
-hidden: true
+hidden: false
 ---
 
 You may have heard the term before and some of you might have a basic understanding that code injection effects security threats anyhow first we’ll find out what code injection really is.
@@ -15,7 +15,7 @@ Code Injection is introducing or injecting code into a program which will alter 
 
 Below is an illustration of a few types of code injection,
 
-![Types of Code Injection](assets/images/code-injection.png)
+![Types of Code Injection](../assets/images/code-injection.png)
 
 **SQL injection:** Inject commands that can read or modify database
 

@@ -13,7 +13,7 @@ permalink: /:title/
 
 # Authors
 authors:
-  sal:
+  mottretor:
     name: mottretor
     display_name: Pasindu Marasinghe
     gravatar: 68d4f7d413de227accc9438594ce0846
@@ -21,14 +21,14 @@ authors:
     web: https://blog.zentinext.com
     twitter: https://twitter.com/mottretor
     description: "ZentiNext Founder"
-  john:
-    name: jhwimalasiri
+  jhwimalasiri:
+    name: Jhwimalasiri
     display_name: Hemanthi Wimalasiri    
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
+    gravatar: 4025b3b2066acae521575ed6c5e749f7
     email: hwimalasiri@gmail.com
     web: https://blog.zentinext.com
     twitter: https://twitter.com/JHWimalasiri
-    description: "Zentinext Founder"
+    description: "Associate Software Engineer , Zentinext Founder"
 
 # Plugins
 plugins:
