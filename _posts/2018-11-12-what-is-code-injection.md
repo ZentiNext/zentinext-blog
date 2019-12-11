@@ -2,7 +2,8 @@
 layout: post
 title:  "What is Code Injection?"
 author: jhwimalasiri
-categories: [ security, code injection ]
+categories: [Tech]
+tags: [ security, code injection ]
 image: assets/images/code-injection.png
 description: "My review of Inception movie. Acting, plot and something else in this short description."
 featured: true
