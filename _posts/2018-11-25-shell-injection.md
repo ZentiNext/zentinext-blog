@@ -5,7 +5,7 @@ author: jhwimalasiri
 categories: [ Tech ]
 tags: [ code injection ]
 image: assets/images/shell-injection-cover.png
-description: "My review of Inception movie. Acting, plot and something else in this short description."
+description: "Shell Injection"
 featured: false
 hidden: false
 ---
