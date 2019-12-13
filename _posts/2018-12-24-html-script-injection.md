@@ -5,7 +5,7 @@ author: jhwimalasiri
 categories: [ Tech ]
 tags: [ code injection ]
 image: assets/images/html-script-injection-cover.png
-description: "My review of Inception movie. Acting, plot and something else in this short description."
+description: "HTML Script Injecting"
 featured: false
 hidden: false
 ---
