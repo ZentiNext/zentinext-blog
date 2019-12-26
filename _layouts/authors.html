@@ -1,23 +1,32 @@
 ---
-title: "Authors"
 layout: default
+title: Authors
 permalink: "/authors.html"
 ---
+<h2>Authors</h2>
+<br>
 
 <div class="row listrecent">
-{% for authorDetails in site.authors %}
-<div class="section-title col-md-12 mt-4">
-<h2 id="{{ authorDetails[0] | replace: " ","-" }}"><span class="text-capitalize">{{ authorDetails[1].display_name }} - Author</span></h2>
-</div>
-{%- assign author_posts = site.posts | where: "author", authorDetails[0]-%}
-{%- for post in author_posts -%}
-{% if post.title != null %}
-{% if group == null or group == post.group %}
-{% include postbox.html %}
-{% endif %}
-{% endif %}
-{% endfor %}
-{% assign author_posts = nil %}
-{% assign group = nil %}
-{% endfor %}
+
+  {% for author in site.authors %}
+
+  <div class="col-lg-4 col-md-6 mb-30px card-group">
+    <div class="card h-100">
+        <div class="card-body">
+            <span class="meta-footer-thumb" style="float: left;">
+                {% if author.avatar %}
+                <img class="author-thumb" src="{{site.baseurl}}/{{ author[1].avatar }}" alt="{{ author[1].display_name }}">
+                {% else %}
+                <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author[1].gravatar }}?s=250&d=mm&r=x" alt="{{ author[1].display_name }}">
+                {% endif %}
+            </span>
+            <h4 class="card-title">
+              <a style="color: black;" href="{{ site.baseurl }}/authors/{{ author[1].name}}">{{ author[1].display_name}}</a>
+            </h4>
+            <br>
+            <h6 class="card-text">{{ author[1].description }}</h6>
+        </div>
+    </div>
+  </div>
+  {% endfor %}
 </div>

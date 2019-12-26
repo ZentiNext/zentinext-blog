@@ -1,0 +1,31 @@
+---
+layout: default
+permalink: "/author"
+---
+
+{% assign authorMeta = site.authors[page.short_name] %}
+<span class="meta-footer-thumb" style="float: left;">
+    {% if authorMeta.avatar %}
+    <img class="author-thumb" src="{{site.baseurl}}/{{ authorMeta.avatar }}" alt="{{ authorMeta.display_name }}">
+    {% else %}
+    <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ authorMeta.gravatar }}?s=250&d=mm&r=x" alt="{{ authorMeta.display_name }}">
+    {% endif %}
+</span>
+<h2 style="color: black;">{{ page.title }} </h2> 
+<h6>{{authorMeta.description}}</h6>
+<br>
+
+<h3>Posts</h3>
+<br>
+<div class="row listrecent">
+  {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
+  {% for post in filtered_posts %}
+  {% if post.title != null %}
+  {% if group == null or group == post.group %}
+  {% include postbox.html %}
+  {% endif %}
+  {% endif %}
+  {% endfor %}
+  {% assign filtered_posts = nil %}
+  {% assign group = nil %}
+</div>
