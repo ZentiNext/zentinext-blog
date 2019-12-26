@@ -1,0 +1,32 @@
+---
+layout: default
+title: Authors
+permalink: "/authors.html"
+---
+<h2>Authors</h2>
+<br>
+
+<div class="row listrecent">
+
+  {% for author in site.authors %}
+
+  <div class="col-lg-4 col-md-6 mb-30px card-group">
+    <div class="card h-100">
+        <div class="card-body">
+            <span class="meta-footer-thumb" style="float: left;">
+                {% if author.avatar %}
+                <img class="author-thumb" src="{{site.baseurl}}/{{ author[1].avatar }}" alt="{{ author[1].display_name }}">
+                {% else %}
+                <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author[1].gravatar }}?s=250&d=mm&r=x" alt="{{ author[1].display_name }}">
+                {% endif %}
+            </span>
+            <h4 class="card-title">
+              <a style="color: black;" href="{{ site.baseurl }}/authors/{{ author[1].name}}">{{ author[1].display_name}}</a>
+            </h4>
+            <br>
+            <h6 class="card-text">{{ author[1].description }}</h6>
+        </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
