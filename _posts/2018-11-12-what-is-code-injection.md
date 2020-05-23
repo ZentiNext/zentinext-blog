@@ -6,7 +6,7 @@ categories: [Tech]
 tags: [ security, code injection ]
 image: assets/images/code-injection.png
 description: "What is Code Injection"
-featured: true
+featured: false
 hidden: false
 ---
 
