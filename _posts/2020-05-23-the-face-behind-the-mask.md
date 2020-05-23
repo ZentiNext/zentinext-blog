@@ -9,7 +9,7 @@ description: "The Face Behind The Mask"
 featured: true
 hidden: false
 ---
-
+<center>
 She has her mask on
 
 And people wander
@@ -63,3 +63,4 @@ Cause she has to survive
 And to survive she needs to
 
 Wear the Mask.
+</center>
