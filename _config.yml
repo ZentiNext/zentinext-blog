@@ -5,7 +5,7 @@ description: "Blog site of ZentiNext"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /
-google_analytics: 'UA-154201011-1'
+google_analytics: 'UA-154201011-2'
 disqus: 'zentinext'
 mailchimp-list: 'https://zentinext.us4.list-manage.com/subscribe/post?u=8e500eaa31fcc2b155a249374&amp;id=64f271e024'
 include: ["_pages"]
