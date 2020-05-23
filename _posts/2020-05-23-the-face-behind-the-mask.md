@@ -38,7 +38,7 @@ Her loved ones safe<br>
 
 It's been a long time<br>
 
-And she has frogotten<br>
+And she has forgotten<br>
 
 Who she was before<br>
 
