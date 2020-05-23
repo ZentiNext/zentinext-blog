@@ -10,6 +10,7 @@ featured: true
 hidden: false
 ---
 <center>
+ 
 She has her mask on <br>
 
 And people wonder<br>
@@ -63,4 +64,5 @@ Cause she has to survive<br>
 And to survive she needs to<br>
 
 Wear the Mask.<br>
+
 </center>
