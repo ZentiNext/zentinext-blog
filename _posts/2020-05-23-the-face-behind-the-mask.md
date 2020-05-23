@@ -12,7 +12,7 @@ hidden: false
 <center>
 She has her mask on <br>
 
-And people wander<br>
+And people wonder<br>
 
 Why such a good  heart goes<br>
 
