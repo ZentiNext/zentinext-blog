@@ -10,57 +10,57 @@ featured: true
 hidden: false
 ---
 <center>
-She has her mask on
+She has her mask on <br>
 
-And people wander
+And people wander<br>
 
-Why such a good  heart goes
+Why such a good  heart goes<br>
 
-Unnoticed and left to be alone
+Unnoticed and left to be alone<br>
 
-But alas only she knows the truth
+But alas only she knows the truth<br>
 
-She has the power to kill
+She has the power to kill<br>
 
-The disease inside her
+The disease inside her<br>
 
-Is so powerful, if she let it
+Is so powerful, if she let it<br>
 
-It could destroy
+It could destroy<br>
 
-The most kindest hearts
+The most kindest hearts<br>
 
-So she hides away
+So she hides away<br>
 
-With a false hope of keeping
+With a false hope of keeping<br>
 
-Her loved ones safe
+Her loved ones safe<br>
 
-It's been a long time
+It's been a long time<br>
 
-And she has frogotten
+And she has frogotten<br>
 
-Who she was before
+Who she was before<br>
 
-This is who she is now
+This is who she is now<br>
 
-She has the power to kill
+She has the power to kill<br>
 
-But has no power to die
+But has no power to die<br>
 
-So she suffers watching
+So she suffers watching<br>
 
-All the agony she has caused
+All the agony she has caused<br>
 
-Lost souls screaming
+Lost souls screaming<br>
 
-Her name for closure
+Her name for closure<br>
 
-And she pretends not to hear them
+And she pretends not to hear them<br>
 
-Cause she has to survive
+Cause she has to survive<br>
 
-And to survive she needs to
+And to survive she needs to<br>
 
-Wear the Mask.
+Wear the Mask.<br>
 </center>
